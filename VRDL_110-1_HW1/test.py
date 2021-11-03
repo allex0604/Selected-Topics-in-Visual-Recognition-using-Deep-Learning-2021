@@ -126,11 +126,11 @@ if __name__ == '__main__':
     test_set = birds_datasets(root + '\\' + 'training_labels.txt',
                               2, transform=data_trans['test'])
     train_loader = torch.utils.data.DataLoader(
-                    train_set, batch_size=16, shuffle=True)
+                    train_set, batch_size=25, shuffle=True)
     valid_loader = torch.utils.data.DataLoader(
-                    valid_set, batch_size=16, shuffle=False)
+                    valid_set, batch_size=25, shuffle=False)
     test_loader = torch.utils.data.DataLoader(
-                    test_set, batch_size=16, shuffle=False)
+                    test_set, batch_size=25, shuffle=False)
 
     # adjust hyperparameters
     criterion = nn.CrossEntropyLoss()
