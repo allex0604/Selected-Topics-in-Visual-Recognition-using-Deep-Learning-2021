@@ -1,5 +1,6 @@
-model download: pip install geffnet 
-                or directly use torch.hub.list('rwightman/gen-efficientnet-pytorch')
+model download: 
+  1. pip install geffnet 
+  2. directly use torch.hub.list('rwightman/gen-efficientnet-pytorch')
 
 test.py is used to check the accuracy and overfitting , the code can not create answer
 
