@@ -6,26 +6,6 @@ import glob
 hw2 = os.getcwd()
 
 
-class Prediction_Dataset(Dataset):
-    def __init__(self, image_dir, transforms=None):
-        self.files = sorted(
-            glob.glob("%s\*.*" % image_dir),
-            key=lambda x: int(os.path.basename(x).split('.')[0])
-        )
-        self.transforms = transforms
-
-    def __getitem__(self, index):
-        img_path = self.files[index % len(self.files)]
-        img = Image.open(img_path).convert("RGB")
-        if self.transforms is not None:
-            img = self.transforms(img)
-        # print(img.shape)
-        return img_path, img
-
-    def __len__(self):
-        return len(self.files)
-
-
 class Num_Dataset(Dataset):
     def __init__(self, dataframe, image_dir, transforms=None):
         super().__init__()
