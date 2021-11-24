@@ -23,7 +23,7 @@ if __name__ == '__main__':
                         help="decides the number of num_worker")
     parser.add_argument("--lr", type=float, default=1e-4,
                         help="learning rate setting")
-    parser.add_argument("--epoch", type=int, default=,
+    parser.add_argument("--epoch", type=int, default=10,
                         help="training times")
     param = parser.parse_args()
 
