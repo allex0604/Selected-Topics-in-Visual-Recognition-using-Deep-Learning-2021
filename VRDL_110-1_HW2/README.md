@@ -9,4 +9,4 @@ inference.py : test the prediction time and predict full test data to create ans
 
 pretrained weight: https://drive.google.com/file/d/1wcIzimhSqVONhWMIN5GGJHzuraolhWZf/view?usp=sharing
 
-inference on colab link : https://colab.research.google.com/drive/1xCXSE_uhdgkD_pKYZdIqzbY5l-HT6tx-
+inference on colab link : https://colab.research.google.com/drive/1xCXSE_uhdgkD_pKYZdIqzbY5l-HT6tx-?usp=sharing
