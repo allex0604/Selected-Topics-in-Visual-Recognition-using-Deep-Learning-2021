@@ -29,7 +29,7 @@ must run the following command in the mmdetection folder
 
 Test:
 
-first use test_coco to get instance_test2017.json
+use test_coco to get instance_test2017.json
 
 must run the following command in the mmdetection folder
 
