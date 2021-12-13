@@ -12,9 +12,11 @@ Data preprocess:
            instance_val2017.json
            instance_test2017.json
         train/  
-           xxx.jpg  
+           xxx.png  
+        val/
+           xxx.png
         test/  
-           xxx.jpg  
+           xxx.pngg  
           
 
 
