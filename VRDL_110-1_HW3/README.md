@@ -3,7 +3,7 @@ install the MMdetection on Windows10 : teaching website
         reference : http://www.4k8k.xyz/article/weixin_41922853/118445620
 
 Data preprocess:
-  1. transform data to compatible the model (here is coco format)
+  1. transform data to compatible the model (here is coco format), use trans2coco.py and split_train_val.py to get instance_train2017.json and instance_val2017.json
   2. put data in data/coco
   
     data/  
