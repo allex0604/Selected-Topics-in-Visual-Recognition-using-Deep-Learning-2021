@@ -4,18 +4,16 @@ install the MMdetection on Windows10 : teaching website
 Data preprocess:
   1. transform data to compatible the model (here is coco format)
   2. put data in data/coco
-  data/  
+data/  
   coco/  
     annotations/  
-      instance_train2017.json  
-      instance_val2017.json       
-      instance_test2017.json       
-     train/  
-            xxx.png          
-     val/
-            xxx.png          
-     test/  
-            xxx.png
+       instance_train2017.json  
+       instance_val2017.json
+       instance_test2017.json
+    train/  
+       xxx.jpg  
+    test/  
+       xxx.jpg  
           
 
 
