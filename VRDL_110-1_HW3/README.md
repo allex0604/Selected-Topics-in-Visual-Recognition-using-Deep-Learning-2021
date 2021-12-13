@@ -27,8 +27,8 @@ python tools/train.py {the position of model.py}
   
 
 Test:
-must run the following command in the mmdetection folder,and can directly get the answer.json
 
+must run the following command in the mmdetection folder,and can directly get the answer.json
 python tools/test.py {the position of pretrained weight} --format-only --options jsonfile_prefix=${JSONFILE_PREFIX}
 
 
