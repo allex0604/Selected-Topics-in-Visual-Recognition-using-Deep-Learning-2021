@@ -16,7 +16,7 @@ Data preprocess:
         val/
            xxx.png
         test/  
-           xxx.pngg  
+           xxx.png  
           
 
 
