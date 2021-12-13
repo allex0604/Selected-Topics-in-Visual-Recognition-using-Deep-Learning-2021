@@ -22,6 +22,7 @@ Data preprocess:
 
 Train and validation:
 must run the following command in the mmdetection folder 
+
 python tools/train.py {the position of model.py}
 
 
