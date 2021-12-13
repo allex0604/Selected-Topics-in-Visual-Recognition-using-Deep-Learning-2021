@@ -41,3 +41,7 @@ after exection can directly get the bbox.json and segm.json and segm.json is ans
 
 pretrained weight : 
   https://drive.google.com/file/d/1fhpOVfWGyndFDm9V_oxDztO2_SVTnmce/view?usp=sharing
+
+
+demo on one test image
+
