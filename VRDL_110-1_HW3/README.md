@@ -13,12 +13,15 @@ Data preprocess:
      train/  
           xxx.png
           ...
+          
      val/
           xxx.png  
           ...
+          
      test/  
           xxx.png
           ...
+          
 
 
 Train and validation:
