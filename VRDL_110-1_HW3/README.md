@@ -1,5 +1,5 @@
 install the MMdetection on Windows10 : teaching website
-                reference : http://www.4k8k.xyz/article/weixin_41922853/118445620
+        reference : http://www.4k8k.xyz/article/weixin_41922853/118445620
 
 Data preprocess:
   1. transform data to compatible the model (here is coco format)
