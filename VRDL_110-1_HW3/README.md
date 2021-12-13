@@ -27,9 +27,11 @@ must run the following command in the mmdetection folder
 
 
 Test:
-must run the following command in the mmdetection folder,and can directly get the answer.json
+must run the following command in the mmdetection folder
 
       python tools/test.py {the position of pretrained weight} --format-only --options jsonfile_prefix=${JSONFILE_PREFIX}
+
+after exection can directly get the bbox.json and segm.json and segm.json is answer.json
 
 
 
