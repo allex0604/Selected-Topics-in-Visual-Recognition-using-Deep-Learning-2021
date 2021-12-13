@@ -46,4 +46,4 @@ pretrained weight :
 
 
 demo on one test image
-![image]
+![image](result.png)
