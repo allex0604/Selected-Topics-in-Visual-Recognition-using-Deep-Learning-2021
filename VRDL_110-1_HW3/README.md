@@ -12,7 +12,6 @@ Data preprocess:
           instance_test2017.json       
      train/  
           xxx.png
-          ...
           
      val/
           xxx.png  
