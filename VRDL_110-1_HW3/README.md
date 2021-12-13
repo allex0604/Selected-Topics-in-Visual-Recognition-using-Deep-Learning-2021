@@ -7,9 +7,9 @@ Data preprocess:
   data/  
   coco/  
     annotations/  
-            instance_train2017.json  
-            instance_val2017.json       
-            instance_test2017.json       
+      instance_train2017.json  
+      instance_val2017.json       
+      instance_test2017.json       
      train/  
             xxx.png          
      val/
