@@ -9,15 +9,12 @@ Data preprocess:
     annotations/  
        instance_train2017.json  
        instance_val2017.json       
-       instance_test2017.json
-       
-      train/  
-         xxx.png  
-       
-      val/
-        xxx.png
-      
-      test/  
+       instance_test2017.json       
+     train/  
+         xxx.png         
+     val/
+        xxx.png      
+     test/  
          xxx.png  
 
 
