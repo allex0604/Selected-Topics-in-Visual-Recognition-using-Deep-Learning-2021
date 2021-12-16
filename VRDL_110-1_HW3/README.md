@@ -22,7 +22,7 @@ Data preprocess:
 
 
 Train and validation:
-must run the following command in the mmdetection folder 
+must run the following command in the mmdetection folder , train.py is the built-in code in MMdetection
 
       python tools/train.py {the position of model.py}
 
@@ -31,7 +31,7 @@ Test:
 
 use test_coco.py to get instance_test2017.json
 
-must run the following command in the mmdetection folder
+must run the following command in the mmdetection folder , test.py is the built-in code in MMdetection
 
       python tools/test.py {the position of pretrained weight} --format-only --options jsonfile_prefix=${JSONFILE_PREFIX}
 
