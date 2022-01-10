@@ -34,6 +34,6 @@
     },
 
     "solver": {
-        "pretrained_path": "./experiments/SRFBN_in3f128_x3/epochs/best_ckp.pth"
+        "pretrained_path": "./experiments//epochs/best_ckp.pth"
     }
 }
