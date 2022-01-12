@@ -1,0 +1,61 @@
+{
+    "mode": "sr",
+    "use_cl": true,
+    "gpu_ids": [0],
+
+    "scale": 3,
+    "is_train": true,
+    "use_chop": true,
+    "rgb_range": 255,
+    "self_ensemble": false,
+    "save_image": false,
+
+    "datasets": {
+        "train": {
+            "mode": "LRHR",
+            "dataroot_HR": "./data/Prepare/HR_x3",
+            "dataroot_LR": "./data/Prepare/LR_x3",
+            "data_type": "img",
+            "n_workers": 4,
+            "batch_size": 32,
+            "LR_size": 8,
+            "use_flip": true,
+            "use_rot": true,
+            "noise": "."
+        },
+        "val": {
+            "mode": "LRHR",
+            "dataroot_HR": "./results/HR/Set5/x3",
+            "dataroot_LR": "./results/LR/LRBI/Set5/x3",
+            "data_type": "img"
+        }
+    },
+
+    "networks": {
+        "which_model": "SRFBN",
+        "num_features": 128,
+        "in_channels": 3,
+        "out_channels": 3,
+        "num_steps": 4,
+        "num_groups": 6
+    },
+
+    "solver": {
+        "type": "ADAM",
+        "learning_rate": 0.0005,
+        "weight_decay": 0,
+        "lr_scheme": "MultiStepLR",
+        "lr_steps": [20, 40, 60, 80],
+        "lr_gamma": 0.5,
+        "loss_type": "l1",
+        "manual_seed": 0,
+        "num_epochs": 100,
+        "skip_threshold": 3,
+        "split_batch": 1,
+        "save_ckp_step": 5,
+        "save_vis_step": 1,
+        "pretrain": null,
+        "pretrained_path": "",
+        "cl_weights": [1.0, 1.0, 1.0, 1.0]
+    }
+}

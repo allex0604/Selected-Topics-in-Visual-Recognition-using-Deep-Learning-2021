@@ -1,0 +1,2 @@
+best :[Set5] PSNR: 34.08   SSIM: 0.9246   Loss: 3.954375   Best PSNR: 34.08 in Epoch: [93]
+last :[Set5] PSNR: 34.04   SSIM: 0.9245   Loss: 3.964945   Best PSNR: 34.08 in Epoch: [93]
