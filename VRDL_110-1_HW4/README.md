@@ -2,9 +2,8 @@ reference :
                       
     https://github.com/Paper99/SRFBN_CVPR19
 
-create training pair:
+create training pair: use matlab to run generate_train_data.m
 
-    use matlab to run generate_train_data.m
 
 train :
 
