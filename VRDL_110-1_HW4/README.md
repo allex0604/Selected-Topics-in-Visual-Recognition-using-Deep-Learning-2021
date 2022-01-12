@@ -15,7 +15,7 @@ test :
 
 
 1.    only need to change the pretrained weight position on  SRFBN_CVPR19/options/test/test_SRFBN.json
-2.        python test.py -opt options/test/test_SRFBN.json
+2.        python inference.py -opt options/test/test_SRFBN.json
 3.    you can see the result on SRFBN_CVPR19/results/SR/MyImage
 
 
