@@ -4,7 +4,7 @@ reference :
 
 create training pair:
 
-    use matlab run
+    use matlab to run generate_train_data.m
 
 train :
 
